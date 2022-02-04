@@ -139,8 +139,8 @@
 
         $(".tf-text").removeClass("style")
         $(".tf-text").addClass("s1")
-        document.getElementById("logo_header").src = "/assets/images/logo/logo_dark.png";
-        document.getElementById("logo_footer").src = "/assets/images/logo/logo_dark.png";
+        document.getElementById("logo_header").src = "/assets/images/logo/super_vet_logo_transparent.png";
+        document.getElementById("logo_footer").src = "/assets/images/logo/super_vet_logo_transparent.png";
         document.getElementById("moon_dark").src = "/assets/images/icon/moon-2.png";
     });
 
@@ -152,8 +152,8 @@
 
         $(".tf-text").addClass("style")
         $(".tf-text").removeClass("s1")
-        document.getElementById("logo_header").src = "/assets/images/logo/logo.png";
-        document.getElementById("logo_footer").src = "/assets/images/logo/logo2.png";
+        document.getElementById("logo_header").src = "/assets/images/logo/super_vet_logo_transparent.png";
+        document.getElementById("logo_footer").src = "/assets/images/logo/super_vet_logo_transparent.png";
         document.getElementById("moon_dark").src = "/assets/images/icon/moon.png";
     });
 
