@@ -75,7 +75,8 @@
 
 .tf-section {
     padding: 80px 0;
-    background: var(--bg-section);
+    /* background: var(--bg-section); */
+    
     margin-bottom: 0 !important;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -2492,7 +2493,8 @@ section.today-picks {
 }
 
 .flat-title-page.style2 .overlay {
-    background: linear-gradient(227.3deg, #8A208C 0%, #181B81 100.84%);
+    /* background: linear-gradient(227.3deg, #8A208C 0%, #181B81 100.84%); */
+    
     z-index: 0;
 }
 
@@ -4322,7 +4324,8 @@ section.today-picks {
 }
 
 .mode_switcher .light.is_active {
-    background: linear-gradient(216.56deg, #E250E5 5.32%, #4B50E6 94.32%);
+    /* background: linear-gradient(216.56deg, #E250E5 5.32%, #4B50E6 94.32%); */
+    
 }
 
 .mode_switcher a i {
@@ -5710,6 +5713,7 @@ section.today-picks {
 
 .flat-title-page.home5 .overlay {
     background: linear-gradient(227.3deg, #8A208C 0%, #181B81 100.84%);
+    background: linear-gradient(227.3deg, #160e0e 0%, #8f0505 100.84%);
     position: absolute;
     width: 100%;
     height: 100%;

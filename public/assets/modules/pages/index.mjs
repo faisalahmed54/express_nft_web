@@ -2,7 +2,7 @@ console.log("Hello Home", $("#gameplay"));
 
 function click_events() {
 
-    $("#light_btn").trigger('click');
+   $("#light_btn").trigger('click');
 
     $('#gameplay').click(function () {
         $('html, body').animate({

@@ -1342,6 +1342,7 @@ label.error {
 }
 
 #wrapper {
+    background: linear-gradient(227.3deg, #160e0e 0%, #8f0505 100.84%) !important;
     position: relative;
     overflow: hidden;
     max-width: 100%;
@@ -1381,7 +1382,9 @@ a:focus {
 
 .hover-ecfect,
 .exp {
-    background: linear-gradient(to right, #E250E5, #4B50E6, #E250E5);
+    /* background: linear-gradient(to right, #E250E5, #4B50E6, #E250E5); */
+   background: linear-gradient(227.3deg, #ffffff 0%, #8f0505 100.84%);
+
     background-clip: text;
     -webkit-background-clip: text;
     font-weight: 700;
@@ -1437,8 +1440,8 @@ a:focus {
 :root {
     /* color */
     --primary-color: #fff;
-    --primary-color2: #1F1F2C;
-    --primary-color3: #5142FC;
+    --primary-color2: #ffffff;
+    --primary-color3: #8f0505;
     --primary-color4: #7A798A;
     --primary-color5: #F8F8F8;
     --primary-color6: #14141F;
@@ -1507,7 +1510,8 @@ header {
 
 .header_1 #main-nav {
     position: absolute;
-    left: 26%;
+    display:flex;
+    left: 15%;
     top: 50%;
     z-index: 0;
     -webkit-transform: translateY(-50%);
@@ -1862,6 +1866,7 @@ header {
 
 #site-logo-inner {
     position: absolute;
+    /* left: -10%; */
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -2117,7 +2122,8 @@ header {
 }
 
 .is_dark #main-nav-mobi ul>li.current-menu-item>a {
-    background: linear-gradient( 216.56deg, #E250E5 5.32%, #4B50E6 94.32%);
+    /* background: linear-gradient( 216.56deg, #E250E5 5.32%, #4B50E6 94.32%); */
+    background: linear-gradient(227.3deg, #160e0e 0%, #8f0505 100.84%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2129,7 +2135,8 @@ header {
 
 .is_dark #main-nav-mobi .current-item>a,
 .is_dark #main-nav-mobi ul>li>a:hover {
-    background: linear-gradient( 216.56deg, #E250E5 5.32%, #4B50E6 94.32%);
+    /* background: linear-gradient( 216.56deg, #E250E5 5.32%, #4B50E6 94.32%); */
+    background: linear-gradient(227.3deg, #160e0e 0%, #8f0505 100.84%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2387,7 +2394,9 @@ header {
     width: 100%;
     box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
     z-index: 9999;
-    background: linear-gradient( 227.3deg, #8A208C 0%, #181B81 100.84%);
+    /* background: linear-gradient( 227.3deg, #8A208C 0%, #181B81 100.84%); */
+    background: linear-gradient(227.3deg, #160e0e 0%, #8f0505 100.84%);
+
     border: none;
     opacity: 0;
     -webkit-transition: all 0.5s ease;
