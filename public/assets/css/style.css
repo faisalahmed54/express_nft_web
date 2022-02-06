@@ -252,7 +252,7 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: #7A798A;
+    color: #fff;
 }
 
 strong,
@@ -2517,7 +2517,7 @@ header {
 
 #footer {
     padding: 80px 0 80px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 #footer.style-2 {
@@ -3621,4 +3621,15 @@ span.type::after {
     100% {
         opacity: 1;
     }
+}
+
+.animal_video{
+    max-width: 70%;
+}
+.animal_video_gameplay{
+    max-width:100%;
+}
+
+.gameplay_items{
+    width: 100% !important;
 }

@@ -1955,12 +1955,12 @@
 .swiper-slide-active .flat-slider .heading {
     opacity: 1;
     visibility: visible;
-    -webkit-transition: transform 1000ms ease, opacity 1000ms ease;
+     /*-webkit-transition: transform 1000ms ease, opacity 1000ms ease;
     -moz-transition: transform 1000ms ease, opacity 1000ms ease;
     -ms-transition: transform 1000ms ease, opacity 1000ms ease;
     -o-transition: transform 1000ms ease, opacity 1000ms ease;
     transition: transform 1000ms ease, opacity 1000ms ease;
-    transition-delay: 1000ms;
+    transition-delay: 1000ms; */
 }
 
 .home.s1 .heading,
