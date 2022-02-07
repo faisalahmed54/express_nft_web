@@ -1907,7 +1907,7 @@ header {
     font-weight: 700;
     display: block;
     color: #fff;
-    padding-right: 15.5px;
+    /* padding-right: 15.5px; */
 }
 
 #main-nav>.menu>li.menu-item-has-children>a::after {

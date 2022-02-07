@@ -5391,11 +5391,14 @@ section.today-picks {
 .flat-cart_item {
     position: relative;
     padding: 140px 0 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
+
 }
 
 .flat-cart_item .overlay {
-    background: linear-gradient(227.3deg, #8A208C 0%, #181B81 100.84%);
+    /* background: linear-gradient(227.3deg, #8A208C 0%, #181B81 100.84%); */
+    /* background: linear-gradient(227.3deg, #160e0e 0%, #8f0505 100.84%) ; */
+
     z-index: 0;
     position: absolute;
     top: 0;
