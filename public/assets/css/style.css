@@ -1383,8 +1383,7 @@ a:focus {
 .hover-ecfect,
 .exp {
     /* background: linear-gradient(to right, #E250E5, #4B50E6, #E250E5); */
-   background: linear-gradient(227.3deg, #ffffff 0%, #8f0505 100.84%);
-
+    background: linear-gradient(227.3deg, #ffffff 0%, #8f0505 100.84%);
     background-clip: text;
     -webkit-background-clip: text;
     font-weight: 700;
@@ -1441,10 +1440,10 @@ a:focus {
     /* color */
     --primary-color: #fff;
     --primary-color2: #ffffff;
-    --primary-color3: #8f0505;
-    --primary-color4: #7A798A;
+    --primary-color3: #e45858;
+    --primary-color4: #ffffff;
     --primary-color5: #F8F8F8;
-    --primary-color6: #14141F;
+    --primary-color6: #ffffff;
     --primary-color7: #F8F8F8;
     --bg-section: #fff;
     --bg-section2: #f8f8f8;
@@ -1510,7 +1509,7 @@ header {
 
 .header_1 #main-nav {
     position: absolute;
-    display:flex;
+    display: flex;
     left: 15%;
     top: 50%;
     z-index: 0;
@@ -2396,7 +2395,6 @@ header {
     z-index: 9999;
     /* background: linear-gradient( 227.3deg, #8A208C 0%, #181B81 100.84%); */
     background: linear-gradient(227.3deg, #160e0e 0%, #8f0505 100.84%);
-
     border: none;
     opacity: 0;
     -webkit-transition: all 0.5s ease;
@@ -3623,13 +3621,14 @@ span.type::after {
     }
 }
 
-.animal_video{
+.animal_video {
     max-width: 70%;
 }
-.animal_video_gameplay{
-    max-width:100%;
+
+.animal_video_gameplay {
+    max-width: 100%;
 }
 
-.gameplay_items{
+.gameplay_items {
     width: 100% !important;
 }

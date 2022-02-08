@@ -59,7 +59,6 @@
     border-radius: 50%;
     background: url(../icon/transparent_super_vet.gif);
     background-size: 50%;
-    
     background-repeat: no-repeat;
     background-position: center center;
     /* animation: preload 1s linear infinite alternate; */
@@ -76,7 +75,6 @@
 .tf-section {
     padding: 80px 0;
     /* background: var(--bg-section); */
-    
     margin-bottom: 0 !important;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -891,7 +889,7 @@
 
 .sc-card-product {
     padding: 20px;
-    background: var(--primary-color);
+    background: #a10c0c;
     box-shadow: 0px 3px 16px rgba(47, 83, 109, 0.12);
     border-radius: 20px;
     margin-bottom: 40px;
@@ -966,7 +964,7 @@
     text-transform: uppercase;
     padding: 0;
     border-radius: 13px;
-    background-color: var(--primary-color);
+    background-color: #6c0808;
     height: 36px;
     width: 151px;
 }
@@ -1955,7 +1953,7 @@
 .swiper-slide-active .flat-slider .heading {
     opacity: 1;
     visibility: visible;
-     /*-webkit-transition: transform 1000ms ease, opacity 1000ms ease;
+    /*-webkit-transition: transform 1000ms ease, opacity 1000ms ease;
     -moz-transition: transform 1000ms ease, opacity 1000ms ease;
     -ms-transition: transform 1000ms ease, opacity 1000ms ease;
     -o-transition: transform 1000ms ease, opacity 1000ms ease;
@@ -2494,7 +2492,6 @@ section.today-picks {
 
 .flat-title-page.style2 .overlay {
     /* background: linear-gradient(227.3deg, #8A208C 0%, #181B81 100.84%); */
-    
     z-index: 0;
 }
 
@@ -4325,7 +4322,6 @@ section.today-picks {
 
 .mode_switcher .light.is_active {
     /* background: linear-gradient(216.56deg, #E250E5 5.32%, #4B50E6 94.32%); */
-    
 }
 
 .mode_switcher a i {
@@ -5392,13 +5388,11 @@ section.today-picks {
     position: relative;
     padding: 140px 0 20px;
     /* background-color: #fff; */
-
 }
 
 .flat-cart_item .overlay {
     /* background: linear-gradient(227.3deg, #8A208C 0%, #181B81 100.84%); */
     /* background: linear-gradient(227.3deg, #160e0e 0%, #8f0505 100.84%) ; */
-
     z-index: 0;
     position: absolute;
     top: 0;
