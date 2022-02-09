@@ -1205,7 +1205,7 @@ label.error {
 }
 
 .bg-style {
-    background-color: var(--primary-color5) !important;
+    /* background-color: var(--primary-color5) !important; */
 }
 
 .bg-style2 {

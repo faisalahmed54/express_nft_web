@@ -736,7 +736,7 @@
     border-radius: 90px;
     width: auto;
     margin-bottom: 30px;
-    background: var(--primary-color);
+    background: #3c0505;
 }
 
 .sc-author-box .author-avatar .avatar {
