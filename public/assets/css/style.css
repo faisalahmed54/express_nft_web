@@ -1370,7 +1370,7 @@ a {
 
 a:hover,
 a:focus {
-    color: var(--primary-color3);
+    color: var(--primary-color10);
     text-decoration: none;
     outline: 0;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1422,7 +1422,7 @@ a:focus {
 
 .link-style-1 a:hover,
 .link-style-1 a:focus {
-    color: var(--primary-color3);
+    color: var(--primary-color10);
     text-decoration: none;
     outline: 0;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1445,6 +1445,8 @@ a:focus {
     --primary-color5: #F8F8F8;
     --primary-color6: #ffffff;
     --primary-color7: #F8F8F8;
+    --primary-color9: #0A3D62;
+    --primary-color10: #128ae3;
     --bg-section: #fff;
     --bg-section2: #f8f8f8;
     --primary-color8: #7A798A;
@@ -1987,7 +1989,7 @@ header {
 
 #main-nav .sub-menu li.current-item a,
 #main-nav .sub-menu li a:hover {
-    color: var(--primary-color3);
+    color: var(--primary-color10);
 }
 
 #main-nav .sub-menu .sub-menu {
@@ -2009,7 +2011,7 @@ header {
 }
 
 #main-nav>ul>li>a:hover {
-    color: #fff;
+    color: var(--primary-color10);
 }
 
 #main-nav>ul>li .sub-menu li {
@@ -2100,7 +2102,7 @@ header {
 }
 
 #main-nav-mobi ul>li>a {
-    color: var(--primary-color2);
+    color: var(--primary-color9);
     display: inline-block;
     font-size: 16px;
     line-height: 48px;
@@ -2117,7 +2119,7 @@ header {
 }
 
 #main-nav-mobi ul>li.current-menu-item>a {
-    color: var(--primary-color3);
+    color: var(--primary-color9);
 }
 
 .is_dark #main-nav-mobi ul>li.current-menu-item>a {
@@ -2129,7 +2131,7 @@ header {
 
 #main-nav-mobi .current-item>a,
 #main-nav-mobi ul>li>a:hover {
-    color: var(--primary-color3);
+    color: var(--primary-color10);
 }
 
 .is_dark #main-nav-mobi .current-item>a,
@@ -2718,12 +2720,12 @@ header {
 
 .widget-social.style-1 a:hover {
     color: var(--primary-color);
-    background-color: var(--primary-color3);
+    background-color: var(--primary-color10);
 }
 
 .is_dark .widget-social.style-1 a:hover {
     color: #ffffff;
-    background-color: var(--primary-color3);
+    background-color: var(--primary-color10);
 }
 
 .widget-social.style-1 ul li {
@@ -2785,7 +2787,7 @@ header {
 }
 
 .widget-social.style-2 ul li a:hover {
-    color: var(--primary-color3);
+    color: var(--primary-color10);
 }
 
 .is_dark .widget-social.style-2 ul li a:hover {
@@ -3148,11 +3150,11 @@ header {
 }
 
 .widget-tag.style-2 ul li a:hover {
-    color: var(--primary-color3);
+    color: var(--primary-color10);
 }
 
 .is_dark .widget-tag.style-2 ul li a:hover {
-    color: #fff;
+    color: var(--primary-color10);
 }
 
 

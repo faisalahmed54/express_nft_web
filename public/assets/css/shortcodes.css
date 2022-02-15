@@ -2984,7 +2984,7 @@ section.today-picks {
 
 .dropdown>a:focus,
 .dropdown>a:hover {
-    color: var(--primary-color2);
+    color: var(--primary-color10);
 }
 
 .dropdown>a:after {
