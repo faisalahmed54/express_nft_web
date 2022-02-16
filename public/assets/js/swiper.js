@@ -18,11 +18,11 @@ var swiper = new Swiper(".mainslider", {
 
 
 var swiper = new Swiper(".carousel", {
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    //     },
-    loop: false,
+    autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+        },
+    loop: true,
     slidesPerView: 1,
     spaceBetween: 30,
     navigation: {

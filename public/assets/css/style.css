@@ -3624,7 +3624,7 @@ span.type::after {
 }
 
 .animal_video {
-    max-width: 70%;
+   padding-top:2% ;
 }
 
 .animal_video_gameplay {
@@ -3633,4 +3633,13 @@ span.type::after {
 
 .gameplay_items {
     width: 100% !important;
+}
+.roadmap_image{
+    width: 700px !important;
+    
+}
+.roadmap_card{
+    background: transparent !important;
+    box-shadow: none !important;
+    
 }
